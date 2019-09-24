@@ -4,7 +4,7 @@
 package songlibrary;
 
 /**
- * @author Marco
+ * @author Marco Vlajnic
  *
  */
 public class Controller {
