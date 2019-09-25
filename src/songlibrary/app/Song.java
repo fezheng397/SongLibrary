@@ -1,7 +1,7 @@
 /**
  * Written by Marco Vlajnic and Felix Zheng 
  */
-package songlibrary;
+package songlibrary.app;
 
 public class Song implements Comparable<Song> {
 	private String name;
