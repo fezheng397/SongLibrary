@@ -2,7 +2,7 @@
  * Written by Marco Vlajnic and Felix Zheng 
  */
 
-package songlibrary;
+package songlibrary.app;
 
 import java.io.IOException;
 
