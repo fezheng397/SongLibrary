@@ -12,14 +12,15 @@ import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.AnchorPane;
 
 public class SongLib extends Application {
 	
 	@Override
 	public void start(Stage primaryStage) throws IOException {
-		
+
 		FXMLLoader loader = new FXMLLoader();
-		loader.setLocation(getClass().getResource("We need fxml path here"));
+		loader.setLocation(getClass().getResource("/songlibrary.view/Layout.fxml"));
 		
 		Parent root;
 		
@@ -29,11 +30,12 @@ public class SongLib extends Application {
 			return;
 		}
 		
-		Scene scene = new Scene(root);
+		Scene scene = new Scene(root, 1000, 800);
 		primaryStage.setScene(scene);
 		primaryStage.setTitle("Song Library");
 		primaryStage.setResizable(false);  
 		primaryStage.show();
+
 	}
 	
 	public static void main(String[] args) {
